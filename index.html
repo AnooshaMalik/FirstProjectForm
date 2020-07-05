@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <h1>sign in form</h1>
+
+        <div class="signUpForm">
+            <div class="form">
+                <input type="text" class="signupName" placeholder="enter your Name">
+                <input class="signupEmail" type="text" name="" placeholder="Enter Email">
+                <input class="signupPassword" type="text" placeholder="Enter Password">
+                <button type="submit"> Submit</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCzTzYJMEopk-lZITinnbsDNYUWHcAmL-0",
+            authDomain: "wallet-tracker-ff5de.firebaseapp.com",
+            databaseURL: "https://wallet-tracker-ff5de.firebaseio.com",
+            projectId: "wallet-tracker-ff5de",
+            storageBucket: "wallet-tracker-ff5de.appspot.com",
+            messagingSenderId: "309701464625",
+            appId: "1:309701464625:web:6e28f15f626b948fccfb10",
+            measurementId: "G-0JQVX0850T"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+
+
+
+    <script src="node.js"></script>
+</body>
+
+</html>
